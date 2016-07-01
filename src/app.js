@@ -1,9 +1,7 @@
-var express = require('express');
+require('./database');
 
-var app = express();
+angular.module("fireStarter", ["firebase"]);
 
-app.use('/', express.static('public'));
-
-app.listen(3000, function() {
-  console.log('The server is running on port 3000...');
-});
+require('./controllers/main');
+require('./directives/todos');
+require('./services/data');
