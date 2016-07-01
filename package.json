@@ -1,0 +1,22 @@
+{
+  "name": "fire-starter",
+  "version": "1.0.0",
+  "description": "A little practice with AngularFire.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshcummingsdesign/fire-starter.git"
+  },
+  "author": "Josh Cummings <hello@joshcummingsdesign.com> (http://joshcummingsdesign.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshcummingsdesign/fire-starter/issues"
+  },
+  "homepage": "https://github.com/joshcummingsdesign/fire-starter#readme",
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
