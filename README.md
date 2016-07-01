@@ -1,2 +1,2 @@
-# fire-starter
+# Fire Starter
 A little practice with AngularFire.
