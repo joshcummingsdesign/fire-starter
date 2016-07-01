@@ -3,7 +3,7 @@ angular.module('fireStarter')
   .directive('todos', function() {
 
     return {
-      templateUrl: 'templates/todos.html',
+      templateUrl: 'views/todos.html',
       controller: 'mainCtrl',
       replace: true
     };
